@@ -15,6 +15,7 @@ public class Glavna {
     private static final int BROJ_PREDMETA = 3;
     private static final int BROJ_ISPITNIH_ROKOVA = 1;
     public static void main(String[] args) {
+        
         Scanner unos = new Scanner(System.in);
 
         Profesor[] profesori = new Profesor[BROJ_PROFESORA];
